@@ -9,7 +9,7 @@ THIS IS FOR JAV DEVS Log4J
 									 
 			Environment:  System where applications is running with all setup.
 			
-					Types of env's:
+					Types of env:
 						1) Dev env, 2) QA env 3) UAT env ( User Accetpetnce Test) 4) Production env
 			 
 			 log4j components
@@ -206,6 +206,11 @@ Date & Time patterns
         log4j.appender.myFile.layout.ConvesionPattern=%d{yy-MM-dd hh:mm} %p :%C %m %M %n
 
 
+
+
+
+    # im working with database 
+         
 ```
 
 
