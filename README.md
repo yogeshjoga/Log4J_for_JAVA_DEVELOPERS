@@ -1,5 +1,71 @@
 # Log4J_for_JAVA_DEVELOPERS
 THIS IS FOR JAV DEVS Log4J
+```java
+
+
+        					Written in Java and powered by Apache Foundation.
+					
+								Need for logging tool.
+								
+We use system.out.printin to print the flow of the program onto the console during the
+runtime enviroment.
+
+System.out.printin is often termed as heavy weight, it is because of its synchronized
+method. this makes it expensive and time consuming.
+
+At the time of production, we can neither use System.out-printin nor debugging tool.
+
+We could use debugging tool to look for any issues. But in case of remote
+envirmonment debugging becomes tougher as debugging tool are not meant to work
+for remote systems.
+
+Log4j comes as a solution that could solve the above problems making the developers
+life easier.
+
+
+                            WHAT IS Log4J
+            To track the flow of application and to maintan a record of the overall
+              process we go for LOG4j framework.
+             - Highly configurable
+             - Logging is highly flexible and could be set to various levels
+        
+
+                                 LOG4J MAIN COMPONENTS
+
+                    LOGGER          APPENDER            LAYOUT
+
+                    LOGGER: To Registe the class to the LOGGER
+                    APPENDER: To append the logging information to the respective destination.
+                    LAYOUT: Styling the logging information.
+
+
+
+
+                                    LOG4J FEATURES
+                Thread safe
+                High speed optimization due to tracing capability
+                multiple appenders support
+                Support I18N-Internationalzation
+                Customized configuring
+                .xml/.properties way of configuration
+                Various level logging
+                Customized formatting of the log messages using layout class
+                it is fail stop
+
+
+
+                            ADVANTAGES OF LOG4J 
+
+                Quick debugging
+                Easy maintenance
+                Structured storage
+        
+                            DISADVANTAGES
+
+                It slows down application
+                Scrolling blindness due to configuaration file beign to verbose
+
+```
 
 
 # Introduction of java logging:
@@ -62,7 +128,7 @@ THIS IS FOR JAV DEVS Log4J
 						
 		    
 			
-			slno	NAME 	METHOD
+			slno	    NAME 	    METHOD
 			1 		DEBUG	debug(msg)
 			2 		INFO	info (msg)
 			3 		WARN	warn(msg)
@@ -93,17 +159,7 @@ THIS IS FOR JAV DEVS Log4J
 						
 			FATAL : this method is used to print any high level exception 
 						application is stoped not working condition right now 
-						
-			
-			
-
-
-
-
-
-
-
-
+					
 
 first logger code
 
@@ -212,29 +268,3 @@ Date & Time patterns
     # im working with database 
          
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
