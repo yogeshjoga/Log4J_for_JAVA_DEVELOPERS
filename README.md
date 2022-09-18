@@ -2,7 +2,7 @@
 THIS IS FOR JAV DEVS Log4J
 
 
-# Introduction of java logging:\
+# Introduction of java logging:
 ```java
 									 Log4J
 									 
@@ -53,7 +53,7 @@ THIS IS FOR JAV DEVS Log4J
 						4 pattern layout : print message as given opattern by programmer
 						
 						
-		##########################################################################################################
+		
 		
 		Priority methods
 		
@@ -102,7 +102,7 @@ THIS IS FOR JAV DEVS Log4J
 
 
 
-*******************************************************************
+
 
 
 first logger code
