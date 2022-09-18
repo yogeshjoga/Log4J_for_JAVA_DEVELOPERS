@@ -128,12 +128,13 @@ life easier.
 						
 		    
 			
-			slno	    NAME 	    METHOD
-			1 		DEBUG	debug(msg)
-			2 		INFO	info (msg)
-			3 		WARN	warn(msg)
-			4		ERROR	error(msg)
-			5		FATAL   fatal(msg)
+			slno	NAME 	  METHOD
+			
+			1 	DEBUG	debug(msg)
+			2 	INFO	info (msg)
+			3 	WARN	warn(msg)
+			4	ERROR	error(msg)
+			5	FATAL   fatal(msg)
 			
 			
 			
