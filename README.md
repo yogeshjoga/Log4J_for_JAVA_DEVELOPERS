@@ -137,6 +137,77 @@ first logger code
 ```
 
 
+# Patterns 
+```java
+
+
+            %C upperCase %C mean current class printing
+            %M upperCase %M mean current method name printing
+            %m lowerCase %m mean message
+            %p lowerCase priority method name 
+            %L upperCase Line number printing
+            %l lowercase line number with link
+            %n lowercase new line or next line
+            %r lowercase time in milli sec
+            %% to print one % symbol
+            we can also use extra symbols like alphaNumrics and spiceal char's
+
+
+
+
+```
+
+# Date and time patterns
+```java
+Date & Time patterns
+
+
+     %d lowerCase date and time
+
+     %d (dd-mmm-yy- hh:mm:ss)
+
+
+
+
+```
+
+# Real world example for log4J concept  log4j.propertites
+
+
+```java
+     RootLogger Following levels
+                    debug DEBUG
+                    info  INFO
+                    warn  WARN
+                    error ERROR
+                    fatal FATAL
+            IF WE TAKE DEBUG --- DEBUG TO FATAL PRINT EVERYTHING
+
+
+ every line start with log4j._____ only
+ # Root logger
+ log4j.rootLogger=DEGUG,sout,myFile  # use only upperCase chars 'sout is the name like variable'
+
+ # Appender + layout details
+ log4j.appender.sout = org.apache.log4j.consoleAppender
+ log4j.appender.sout.Target=System.out
+ log4j.appender.sout.layout= org.apache.log4j.PatternLayout
+ log4j.appender.sout.layout.conversionPattern= %d{yy-MM-dd hh:mm} %p %C %m %M %n 
+
+
+
+   # comments
+
+   # we can create file  in local machine by using FILE APPENDER 
+
+        log4j.appender.myFile=org.apache.log4j.FileAppender
+        log4j.appender.myFile.File=D:/mylogs.log
+        log4j.appender.myFile.layout=org.apache.log4j.PatternLayout
+        log4j.appender.myFile.layout.ConvesionPattern=%d{yy-MM-dd hh:mm} %p :%C %m %M %n
+
+
+```
+
 
 
 
